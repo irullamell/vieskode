@@ -4,4 +4,4 @@ USER root
 
 EXPOSE 6080
 
-CMD code-server --bind-addr 0.0.0.0:6080 --auth none /root
+CMD ["code-server", "--bind-addr", "0.0.0.0:6080", "--auth", "none", "/root"]
